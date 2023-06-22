@@ -538,6 +538,10 @@ video {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
 }
@@ -562,13 +566,22 @@ video {
   resize: both;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .border {
   border-width: 1px;
 }
 
-.bg-red-400 {
+.bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
